@@ -26,3 +26,29 @@ section.places .listings article h2 {
     margin-left: 80%;
     position: relative;
 }
+.information {
+    height: 80px;
+    border-top, border-bottom: #DDDDDD 1px;
+    vertical-align: middle;
+    margin-top: 0;
+}
+.information .max_guest {
+    width: 100px;
+    text-align: center;
+}
+.information .number_rooms {
+    width: 100px;
+    text-align: center;
+}
+.information .number_bathrooms {
+    width: 100px;
+    text-align: center;
+}
+.user {
+    text-align: left;
+    position: relative;
+}
+.description {
+    position: relative;
+    text-align: left;
+}
