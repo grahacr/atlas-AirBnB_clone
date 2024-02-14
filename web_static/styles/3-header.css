@@ -1,5 +1,12 @@
  header {
-    background-color: #FF0000;
     height: 70px;
     width: 100%;
+    background-color: white;
+    border-bottom: 1px #CCCCCC;
+}
+header .icon {
+    background-image: url('../images/icon.png');
+    width: 120;
+    height: 60px;
+    background-repeat: no-repeat;
 }
