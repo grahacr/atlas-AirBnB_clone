@@ -9,6 +9,7 @@ section.places .listings article {
     margin: 20px;
     border-radius: 4px;
     border: 1px solid #FF5A5F;
+    position: relative;
 }
 section.places .listings article h2 {
     font-size: 30px;
@@ -28,27 +29,18 @@ section.places .listings article h2 {
 }
 .information {
     height: 80px;
-    border-top, border-bottom: #DDDDDD 1px;
-    vertical-align: middle;
-    margin-top: 0;
+    border: #DDDDDD 1px solid;
+    text-align: center
+    padding: 10px;
 }
-.information .max_guest {
-    width: 100px;
-    text-align: center;
-}
-.information .number_rooms {
-    width: 100px;
-    text-align: center;
-}
+.information .max_guest,
+.information .number_rooms,
 .information .number_bathrooms {
     width: 100px;
-    text-align: center;
+    display: inline-block;
 }
-.user {
-    text-align: left;
-    position: relative;
-}
+.user,
 .description {
-    position: relative;
     text-align: left;
+    padding: 10px;
 }
