@@ -4,8 +4,8 @@
     background-color: white;
     border-bottom: 1px #CCCCCC;
 }
-header .icon {
-    background-image: url('../images/icon.png');
+header .logo {
+    background-image: url('../images/logo.png');
     width: 120;
     height: 60px;
     background-repeat: no-repeat;
