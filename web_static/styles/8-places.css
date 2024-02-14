@@ -1,0 +1,28 @@
+.places {
+    top: 0;
+    left: 0;
+    font-size: 30px;
+}
+section.places .listings article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    border: 1px solid #FF5A5F;
+}
+section.places .listings article h2 {
+    font-size: 30px;
+    text-align: center;    
+}
+.places .listings .price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F solid 4px;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    top: 0px; right: 15px;
+    text-align: center;
+    margin-left: 80%;
+    position: relative;
+}
